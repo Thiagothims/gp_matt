@@ -7,7 +7,7 @@
 }
 
 .min_heigth {
-    min-height: 75%;
+    min-height: 70%; /* padrão 75% */ 
 }
 
 .start {
