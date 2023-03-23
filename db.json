@@ -2,51 +2,40 @@
   "projects": [
     {
       "name": "Dev Estag Expert",
-      "budget": "20000",
+      "budget": "50000",
       "category": {
         "id": "2",
         "name": "Desenvolvimento"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 1
-    },
-    {
-      "name": "Uno Aprendiz",
-      "budget": "80000",
-      "category": {
-        "id": "3",
-        "name": "Design"
       },
       "cost": 0,
       "services": [],
       "id": 2
     },
     {
-      "name": "NovoDev",
-      "budget": "3000",
+      "name": "Planing Dev Expert",
+      "budget": "80000",
       "category": {
-        "id": "2",
-        "name": "Desenvolvimento"
+        "id": "4",
+        "name": "Planejamento"
       },
       "cost": 0,
       "services": [],
       "id": 3
     },
     {
-      "name": "thiago",
-      "budget": "8000",
+      "name": "Dev React",
+      "budget": "100",
       "category": {
-        "id": "3",
-        "name": "Design"
+        "id": "2",
+        "name": "Desenvolvimento"
       },
       "cost": 0,
       "services": [],
       "id": 4
     },
     {
-      "name": "Dev Estag Expert",
-      "budget": "65400",
+      "name": "Dev Expert",
+      "budget": "50",
       "category": {
         "id": "1",
         "name": "Infraestrutura"
@@ -54,17 +43,6 @@
       "cost": 0,
       "services": [],
       "id": 5
-    },
-    {
-      "name": "jfhgjdfhgkjdfhg",
-      "budget": "80000",
-      "category": {
-        "id": "1",
-        "name": "Infraestrutura"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 6
     }
   ],
   "categories": [

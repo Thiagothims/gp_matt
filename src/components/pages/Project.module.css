@@ -1,0 +1,56 @@
+.project_details {
+    padding: 2em
+}
+
+.project_details h1,
+.project_details h2,
+.project_details p {
+    margin-bottom: 0.5em;
+}
+
+.project_details h1 {
+    background-color: rgba(0, 0, 0, 0.1);
+    color: rgb(150, 85, 0);
+    padding: 0.4em;
+    border-radius: 15px;
+}
+
+.project_details span {
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.project_details p {
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.details_container,
+.service_form_container {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    margin-bottom: 1.2em;
+    padding-bottom: 1.2em;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.btn {
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    height: 50px;
+    border: none;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+    transition: 0.25s;
+    color: rgb(0, 0, 0);
+    padding: 0.5em 1em;
+    cursor: pointer
+}
+
+.btn:hover {
+    color: rgb(150, 85, 0);
+}
+
+.project_info {
+    width: 100%;
+}

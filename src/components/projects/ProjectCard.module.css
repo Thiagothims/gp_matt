@@ -1,0 +1,95 @@
+.project_card {
+    padding: 1em;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    width: 24%;
+    margin: 0.5%;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.project_card:hover {
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    box-shadow: 5px 5px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.project_card h4 {
+    background-color: rgba(255, 145, 0, 0.3);
+    border-radius: 10px;
+    color: rgba(0, 0, 0, 0.7);
+    padding: .4em;
+    margin-bottom: 1.3em;
+    font-size: 1.3em;
+}
+
+.project_card p {
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 1em;
+}
+
+.project_card p span {
+    font-weight: bold;
+}
+
+.category_text {
+    display: flex;
+    align-items:center;
+}
+
+.category_text span {
+    display: block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    background-color: rgba(0, 0, 0, 0.1);
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2); 
+    margin-right: 5px;
+}
+
+.category_text .desenvolvimento {
+    background-color: rgba(255, 0, 0, 0.3);
+}
+.category_text .planejamento {
+    background-color: rgba(0, 26, 255, 0.3);
+}
+.category_text .design {
+    background-color: rgba(21, 255, 0, 0.3);
+}
+.category_text .infraestrutura {
+    background-color: rgba(255, 251, 0, 0.3);
+}
+
+.project_card_actions {
+    margin-bottom: 1.2em;
+    display: flex;
+    align-items: center;
+}
+
+.project_card_actions a,
+.project_card_actions button {
+    text-decoration: none;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    color: rgba(0, 0, 0, 0.4);
+    font-size: .9em;
+    padding: .6em 1em;
+    cursor: pointer;
+    margin-right: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s;
+}
+
+.project_card_actions svg {
+    margin-right: .5em;
+    width: 20px;
+    height: 20px;
+}
+
+.project_card_actions a:hover,
+.project_card_actions button:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+    color: rgba(0, 0, 0, 0.8);
+}
