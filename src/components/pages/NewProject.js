@@ -23,7 +23,8 @@ function NewProject() {
             body: JSON.stringify(project)               // envia pro body em formato string json
         })
             .then((resp) => resp.json())
-            .then((data) => navigate('/projects',{ state: {message: 'Projeto criado com sucesso!'}}))   //// redirecionar para a rota Projects) /// ajuste, adicionar o {state:{message}}
+            .then((data) => 
+            navigate('/projects',{ state: {message: 'Projeto criado com sucesso!'}}))   //// redirecionar para a rota Projects) /// ajuste, adicionar o {state:{message}}
             .catch(err => console.log(err))
     }
 

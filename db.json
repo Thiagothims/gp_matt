@@ -2,47 +2,32 @@
   "projects": [
     {
       "name": "Dev Estag Expert",
-      "budget": "50000",
+      "budget": "1400",
       "category": {
         "id": "2",
         "name": "Desenvolvimento"
+      },
+      "cost": 500,
+      "services": [
+        {
+          "name": "thiago",
+          "cost": "500",
+          "description": "djhfpudshpfudhsf",
+          "id": "19726c9f-d476-4eaf-b4b3-1a3b195e5613"
+        }
+      ],
+      "id": 1
+    },
+    {
+      "name": "Dev React",
+      "budget": "5000",
+      "category": {
+        "id": "3",
+        "name": "Design"
       },
       "cost": 0,
       "services": [],
       "id": 2
-    },
-    {
-      "name": "Planing Dev Expert",
-      "budget": "80000",
-      "category": {
-        "id": "4",
-        "name": "Planejamento"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 3
-    },
-    {
-      "name": "Dev React",
-      "budget": "100",
-      "category": {
-        "id": "2",
-        "name": "Desenvolvimento"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 4
-    },
-    {
-      "name": "Dev Expert",
-      "budget": "50",
-      "category": {
-        "id": "1",
-        "name": "Infraestrutura"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 5
     }
   ],
   "categories": [
