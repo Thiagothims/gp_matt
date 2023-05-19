@@ -15,7 +15,7 @@ function NewProject() {
         project.cost = 0
         project.services = []
 
-        fetch("http://localhost:5000/projects", {       // request para o BD
+        fetch("http://localhost:5010/projects", {       // request para o BD
             method: 'POST',                             // qual o método --- POST => envia dados
             headers: {                                  
                 'Content-Type': 'application/json'      // indica a forma que que quer trabalhar os dados

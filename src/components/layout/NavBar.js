@@ -28,7 +28,6 @@ function NavBar() {
                         <Link to="/contact">Contato</Link>
                     </li>
                 </ul>
-
             </Container>
         </nav>
     )
